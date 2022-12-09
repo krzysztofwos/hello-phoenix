@@ -6,10 +6,12 @@
     "GitHub.copilot",
     "JakeBecker.elixir-ls",
     "phoenixframework.phoenix",
+    "trunk.io"
   ],
   "postCreateCommand": "mix local.hex --force && mix local.rebar --force && mix archive.install --force hex phx_new 1.7.0-rc.0",
   "remoteUser": "vscode",
   "settings": {
+    "editor.defaultFormatter": "trunk.io",
     "editor.formatOnSave": true
   }
 }
