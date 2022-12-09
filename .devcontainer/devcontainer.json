@@ -1,0 +1,15 @@
+{
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "extensions": [
+    "GitHub.copilot",
+    "JakeBecker.elixir-ls",
+    "phoenixframework.phoenix",
+  ],
+  "postCreateCommand": "mix local.hex --force && mix local.rebar --force && mix archive.install --force hex phx_new",
+  "remoteUser": "vscode",
+  "settings": {
+    "editor.formatOnSave": true
+  }
+}
