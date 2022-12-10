@@ -7,7 +7,7 @@
     "JakeBecker.elixir-ls",
     "phoenixframework.phoenix",
   ],
-  "postCreateCommand": "mix local.hex --force && mix local.rebar --force && mix archive.install --force hex phx_new",
+  "postCreateCommand": "mix local.hex --force && mix local.rebar --force && mix archive.install --force hex phx_new 1.7.0-rc.0",
   "remoteUser": "vscode",
   "settings": {
     "editor.formatOnSave": true
