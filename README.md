@@ -1,22 +1,19 @@
-# Phoenix Dev Container
+# HelloPhoenix
 
-This file will be overwritten by `phx.new`.
+To start your Phoenix server:
 
-Create a new Phoenix project:
+- Install dependencies with `mix deps.get`
+- Create and migrate your database with `mix ecto.setup`
+- Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
-```bash
-mix phx.new . --module HelloPhoenix --app hello_phoenix
-```
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Add `.elixir_ls` to `.gitignore`:
+Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
-```bash
-printf "\n# ElixirLS\n.elixir_ls\n" >>.gitignore
-```
+## Learn more
 
-Stage all files and commit:
-
-```bash
-git add -A
-git commit -m "HelloPhoenix"
-```
+- Official website: https://www.phoenixframework.org/
+- Guides: https://hexdocs.pm/phoenix/overview.html
+- Docs: https://hexdocs.pm/phoenix
+- Forum: https://elixirforum.com/c/phoenix-forum
+- Source: https://github.com/phoenixframework/phoenix
